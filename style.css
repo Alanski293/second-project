@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    height: 740px;
+    background-image: url(./img/fon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-color{
+    background-color: rgba(0, 0, 0, 0.425);
+    max-width: 100%;
+    height: 740px;
+}
+.card-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(70px);
+}
+.card-1-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background-image: url(./img/fon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 600px;
+}
+.card-1-right{
+    width: 500px;
+    height: 600px; 
+    background-color: white;
+}
+h1{
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px;
+    color: rgb(135, 135, 97);
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: rgb(19, 19, 0);
+    text-align: center;
+}
+a{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: rgb(135, 135, 97);
+    text-decoration: underline;
+    margin-top: 60px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: rgb(83, 112, 125);
+}
+.card-1-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.card-f-name{
+    display: inline;
+    justify-content: left;
+    align-items: center;
+    margin-right: 250px;
+    margin-top: 115px;
+}
+.card-f-name input{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border-color: rgb(83, 112, 125);
+    margin-top: 15px;
+}
+.card-l-name{
+    display: inline;
+    justify-content: right;
+    align-items: center;
+    margin-left: 200px;
+    transform: translateY(-115px);
+}
+.card-l-name input{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border-color: rgb(83, 112, 125);
+    margin-top: 15px;
+}
+.card-1-user-n input{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border-color: rgb(83, 112, 125);
+    margin-top: 15px;
+}
+.card-1-user-n{
+    transform: translateY(-115px);
+}
+.card-1-email input{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border-color: rgb(83, 112, 125);
+    margin-top: 15px;
+}
+.card-1-email{
+    transform: translateY(-115px);
+}
+.card-1-password input{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border-color: rgb(83, 112, 125);
+    margin-top: 15px;
+}
+.card-1-password{
+    transform: translateY(-115px);
+}
+.card-1-btn button{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    background: rgb(0,136,16);
+    background: linear-gradient(90deg, rgba(0,136,16,1) 0%, rgba(0,71,89,1) 100%);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: bisque;
+    transform: translateY(-115px);
+}
+.card-1-btn :hover{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: rgb(195, 167, 132);
+    background: rgb(0,71,89);
+    background: linear-gradient(90deg, rgba(0,71,89,1) 0%, rgba(0,136,16,1) 100%);
+    transition: all 0.5 ease-in;
+}
+.card-2-right{
+    width: 500px;
+    height: 600px; 
+    background-color: white;
+    color: rgb(0, 162, 143);
+}
+.card-2-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background-image: url(./img/fon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 600px;
+}
+.card-2-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.card-2-left h1{
+    color: rgb(0, 127, 85);
+}
+.card-2-left a{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: rgb(0, 127, 85);
+    text-decoration: underline;
+    margin-top: 60px;
+}
+.card-2-btn button{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    background: rgb(255,148,148);
+    background: linear-gradient(90deg, rgba(255,148,148,1) 0%, rgba(255,254,171,1) 100%);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: rgb(18, 75, 101);
+    transform: translateY(-115px);
+}
+.card-2-btn :hover{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: rgb(38, 182, 189);
+    background: rgb(255,254,171);
+    background: linear-gradient(90deg, rgba(255,254,171,1) 0%, rgba(255,148,148,1) 100%);
+    transition: all 0.5 ease-in;
+}
